@@ -4,7 +4,7 @@ Tool to dump and patch LUKS2 JSON area. The header checksum are recomputed with 
 
 # Example
 
-If we want to change a value in the JSON area. Here is the way to proceed. First dump the json are:
+To change a value in the JSON area, here is the way to proceed. First dump the json area:
 ```bash
 $ ./luks2_patcher.py -d disk.img
 Found LUKS2 header of size 0x4000 bytes.
